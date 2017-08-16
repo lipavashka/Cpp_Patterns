@@ -43,3 +43,14 @@ private:
 	string host;
 	int    port;
 };
+
+class WirelessLogger : public Logger
+{
+public:
+	WirelessLogger(string & remote_host, int remote_port);
+	~WirelessLogger();
+	void log(string & str);
+private:
+	string host;
+	int    port;
+};

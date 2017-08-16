@@ -19,6 +19,14 @@ void ST_LoggerImpl::socket_log(
 	cout << "Single-threaded socket logger" << endl;
 };
 
+void ST_LoggerImpl::wireless_log(
+	string & host, int port, string & str)
+{
+	cout << "Single-threaded wireless logger" << endl;
+};
+
+
+
 void MT_LoggerImpl::console_log(string & str)
 {
 	cout << "Multithreaded console logger" << endl;
@@ -34,3 +42,9 @@ void MT_LoggerImpl::socket_log(
 {
 	cout << "Multithreaded socket logger" << endl;
 }
+
+void MT_LoggerImpl::wireless_log(
+	string & host, int port, string & str)
+{
+	cout << "Multit-threaded wireless logger" << endl;
+};

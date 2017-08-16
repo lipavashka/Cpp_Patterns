@@ -75,3 +75,24 @@ void SocketLogger::log(string & str)
 {
 	pimpl->socket_log(host, port, str);
 }
+
+WirelessLogger::WirelessLogger(string & remote_host,
+	int remote_port) : Logger(
+#ifdef MT
+	new MT_LoggerImpl()
+#else
+	new ST_LoggerImpl()
+#endif
+	), host(remote_host), port(remote_port)
+{
+	cout << "WirelessLogger constructor" << endl;
+}
+WirelessLogger::~WirelessLogger()
+{
+	cout << "WirelessLogger distructor" << endl;
+}
+
+void WirelessLogger::log(string & str)
+{
+	pimpl->wireless_log(host, port, str);
+}
