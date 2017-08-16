@@ -1,4 +1,4 @@
-// Logger.cpp - Абстракция
+// Logger.cpp - Abstarct
 #include <iostream>
 #include "Logger.h"
 #include "LoggerImpl.h"

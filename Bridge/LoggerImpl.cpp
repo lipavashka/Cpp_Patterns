@@ -1,4 +1,4 @@
-// LoggerImpl.cpp - Реализация
+// LoggerImpl.cpp - Realise
 #include <iostream>
 #include "LoggerImpl.h"
 using namespace std;

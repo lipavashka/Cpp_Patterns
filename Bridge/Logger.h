@@ -1,8 +1,8 @@
-// Logger.h - јбстракци€
+// Logger.h - Abstract
 #include <string>
 using namespace std;
 
-// ќпережающее объ€вление
+// Forward declaration
 class LoggerImpl;
 
 class Logger

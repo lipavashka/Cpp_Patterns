@@ -1,4 +1,4 @@
-// LoggerImpl.h - Реализация
+// LoggerImpl.h - Realise
 #include <string>
 using namespace std;
 
