@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bridge", "Bridge\Bridge.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composite", "Composite\Composite.vcxproj", "{4A31A617-3FFD-458C-AA43-E7EA5ACA1F84}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Decorator", "Decorator\Decorator.vcxproj", "{BBC941CC-66EB-4805-8C73-8DE111422016}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +29,10 @@ Global
 		{4A31A617-3FFD-458C-AA43-E7EA5ACA1F84}.Debug|Win32.Build.0 = Debug|Win32
 		{4A31A617-3FFD-458C-AA43-E7EA5ACA1F84}.Release|Win32.ActiveCfg = Release|Win32
 		{4A31A617-3FFD-458C-AA43-E7EA5ACA1F84}.Release|Win32.Build.0 = Release|Win32
+		{BBC941CC-66EB-4805-8C73-8DE111422016}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BBC941CC-66EB-4805-8C73-8DE111422016}.Debug|Win32.Build.0 = Debug|Win32
+		{BBC941CC-66EB-4805-8C73-8DE111422016}.Release|Win32.ActiveCfg = Release|Win32
+		{BBC941CC-66EB-4805-8C73-8DE111422016}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
