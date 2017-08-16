@@ -1,11 +1,15 @@
 #include <iostream>
 using namespace std;
 
+#define LOG cout << __FUNCTION__ << endl;
+
 enum typeSensor { Fahrenheit, DS18B20, TMP160, WRONG};
 
 class FahrenheitSensor
 {
 public:
+	FahrenheitSensor() { cout << "FahrenheitSensor constructor \n"; }
+    ~FahrenheitSensor() { cout << "FahrenheitSensor distructor \n"; }
 	float getFahrenheitTemp() {
 		float t = 75.0;
 		// ... 
@@ -18,6 +22,8 @@ protected:
 class DS18B20Sensor
 {
 public:
+	DS18B20Sensor() { cout << "DS18B20Sensor constructor \n"; }
+	~DS18B20Sensor() { cout << "DS18B20Sensor distructor \n"; }
 	float getDS18B20Temp() {
 		float t = 25.0;
 		// ... 
@@ -30,6 +36,8 @@ protected:
 class TMP160Sensor
 {
 public:
+	TMP160Sensor() { cout << "TMP160Sensor constructor \n"; }
+	~TMP160Sensor() { cout << "TMP160Sensor distructor \n"; }
 	float getTMP160Temp() {
 		float t = 35.0;
 		// ... 
@@ -42,7 +50,8 @@ protected:
 class Sensor
 {
 public:
-	virtual ~Sensor() {}
+	         Sensor() { cout << "Sensor constructor \n"; }
+	virtual ~Sensor() { cout << "Sensor distructor \n"; }
 	virtual float getTemperature(typeSensor sens) = 0;
 	virtual void adjust(typeSensor sens) = 0;
 };
@@ -50,8 +59,8 @@ public:
 class Adapter : public Sensor, private FahrenheitSensor, private DS18B20Sensor, private TMP160Sensor
 {
 public:
-	Adapter() { }
-
+	Adapter() { cout << "Adapter constructor \n"; }
+	~Adapter() { cout << "Adapter distructor \n"; }
 	float getTemperature(typeSensor sens)
 	{
 		if (sens == Fahrenheit)
@@ -95,6 +104,7 @@ public:
 
 int main()
 {
+	LOG;
 	Sensor * p = new Adapter();
 	p->adjust(Fahrenheit);
 	cout << "Celsius temperature = " << p->getTemperature(Fahrenheit) << endl;
@@ -108,5 +118,6 @@ int main()
 	p->adjust(WRONG);
 	cout << p->getTemperature(WRONG) << endl;
 	delete p;
+	p = 0;
 	return 0;
 }
