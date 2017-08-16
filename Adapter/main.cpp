@@ -1,3 +1,4 @@
+// example from http://cpp-reference.ru/patterns/structural-patterns/adapter/
 #include <iostream>
 using namespace std;
 

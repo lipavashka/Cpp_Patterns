@@ -1,3 +1,4 @@
+// example from http://cpp-reference.ru/patterns/structural-patterns/bridge/
 // Main.cpp
 #include <string>
 #include <iostream>

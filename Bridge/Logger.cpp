@@ -1,3 +1,4 @@
+// example from http://cpp-reference.ru/patterns/structural-patterns/bridge/
 // Logger.cpp - Abstarct
 #include <iostream>
 #include "Logger.h"

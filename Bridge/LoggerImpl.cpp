@@ -1,3 +1,4 @@
+// example from http://cpp-reference.ru/patterns/structural-patterns/bridge/
 // LoggerImpl.cpp - Realise
 #include <iostream>
 #include "LoggerImpl.h"

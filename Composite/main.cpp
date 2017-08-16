@@ -1,3 +1,4 @@
+// Example from  http://cpp-reference.ru/patterns/structural-patterns/composite/
 #include <iostream>
 #include <vector>
 #include <assert.h>
