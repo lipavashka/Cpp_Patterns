@@ -19,6 +19,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Proxy", "Proxy\Proxy.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Abstract_Factory", "Abstract_Factory\Abstract_Factory.vcxproj", "{1B55A58E-1396-4184-A0F6-6162DEEB6D5C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Builder", "Builder\Builder.vcxproj", "{0117540A-FE57-4D64-A15F-381A813AE878}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Factory_Method", "Factory_Method\Factory_Method.vcxproj", "{0CAFCC03-371D-4FBD-9B9E-525E91FB7EE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -57,6 +61,14 @@ Global
 		{1B55A58E-1396-4184-A0F6-6162DEEB6D5C}.Debug|Win32.Build.0 = Debug|Win32
 		{1B55A58E-1396-4184-A0F6-6162DEEB6D5C}.Release|Win32.ActiveCfg = Release|Win32
 		{1B55A58E-1396-4184-A0F6-6162DEEB6D5C}.Release|Win32.Build.0 = Release|Win32
+		{0117540A-FE57-4D64-A15F-381A813AE878}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0117540A-FE57-4D64-A15F-381A813AE878}.Debug|Win32.Build.0 = Debug|Win32
+		{0117540A-FE57-4D64-A15F-381A813AE878}.Release|Win32.ActiveCfg = Release|Win32
+		{0117540A-FE57-4D64-A15F-381A813AE878}.Release|Win32.Build.0 = Release|Win32
+		{0CAFCC03-371D-4FBD-9B9E-525E91FB7EE9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0CAFCC03-371D-4FBD-9B9E-525E91FB7EE9}.Debug|Win32.Build.0 = Debug|Win32
+		{0CAFCC03-371D-4FBD-9B9E-525E91FB7EE9}.Release|Win32.ActiveCfg = Release|Win32
+		{0CAFCC03-371D-4FBD-9B9E-525E91FB7EE9}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
