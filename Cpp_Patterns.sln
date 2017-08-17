@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composite", "Composite\Comp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Decorator", "Decorator\Decorator.vcxproj", "{BBC941CC-66EB-4805-8C73-8DE111422016}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Facade", "Facade\Facade.vcxproj", "{12C29229-E094-4A4B-88C0-0013EF114E92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -33,6 +35,10 @@ Global
 		{BBC941CC-66EB-4805-8C73-8DE111422016}.Debug|Win32.Build.0 = Debug|Win32
 		{BBC941CC-66EB-4805-8C73-8DE111422016}.Release|Win32.ActiveCfg = Release|Win32
 		{BBC941CC-66EB-4805-8C73-8DE111422016}.Release|Win32.Build.0 = Release|Win32
+		{12C29229-E094-4A4B-88C0-0013EF114E92}.Debug|Win32.ActiveCfg = Debug|Win32
+		{12C29229-E094-4A4B-88C0-0013EF114E92}.Debug|Win32.Build.0 = Debug|Win32
+		{12C29229-E094-4A4B-88C0-0013EF114E92}.Release|Win32.ActiveCfg = Release|Win32
+		{12C29229-E094-4A4B-88C0-0013EF114E92}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
