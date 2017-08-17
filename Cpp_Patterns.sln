@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Facade", "Facade\Facade.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Flyweight", "Flyweight\Flyweight.vcxproj", "{125DB8C1-595A-4BB4-B0DA-813EDD8078C4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Proxy", "Proxy\Proxy.vcxproj", "{E7F48E02-B705-4C1E-A919-CAFFB0B457C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -45,6 +47,10 @@ Global
 		{125DB8C1-595A-4BB4-B0DA-813EDD8078C4}.Debug|Win32.Build.0 = Debug|Win32
 		{125DB8C1-595A-4BB4-B0DA-813EDD8078C4}.Release|Win32.ActiveCfg = Release|Win32
 		{125DB8C1-595A-4BB4-B0DA-813EDD8078C4}.Release|Win32.Build.0 = Release|Win32
+		{E7F48E02-B705-4C1E-A919-CAFFB0B457C8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E7F48E02-B705-4C1E-A919-CAFFB0B457C8}.Debug|Win32.Build.0 = Debug|Win32
+		{E7F48E02-B705-4C1E-A919-CAFFB0B457C8}.Release|Win32.ActiveCfg = Release|Win32
+		{E7F48E02-B705-4C1E-A919-CAFFB0B457C8}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
