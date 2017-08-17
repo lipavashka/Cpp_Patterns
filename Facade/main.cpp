@@ -101,8 +101,7 @@ public:
 			_state++;
 			/* Перенаправим запрос инженеру */
 			_engineer.submitNetworkRequest();
-			cout << "submitted to Facilities - " << _count
-				<< " phone calls so far" << endl;
+			cout << "submitted to Facilities - " << _count	<< " phone calls so far" << endl;
 		}
 		else if (_state == SubmitToEngineer)
 		{
@@ -112,8 +111,7 @@ public:
 			{
 				_state++;
 				_electrician.submitNetworkRequest();
-				cout << "submitted to Electrician - " << _count
-					<< " phone calls so far" << endl;
+				cout << "submitted to Electrician - " << _count	<< " phone calls so far" << endl;
 			}
 		}
 		else if (_state == SubmitToElectrician)
@@ -124,8 +122,7 @@ public:
 			{
 				_state++;
 				_technician.submitNetworkRequest();
-				cout << "submitted to MIS - " << _count
-					<< " phone calls so far" << endl;
+				cout << "submitted to MIS - " << _count	<< " phone calls so far" << endl;
 			}
 		}
 		else if (_state == SubmitToTechnician)
@@ -162,9 +159,6 @@ int main()
 
 	facilities.submitNetworkRequest();
 	/* Звоним, пока работа не выполнена полностью */
-	while (!facilities.checkOnStatus())
-		;
-	cout << "job completed after only "
-		<< facilities.getNumberOfCalls()
-		<< " phone calls" << endl;
+	while (!facilities.checkOnStatus());
+	cout << "job completed after only "	<< facilities.getNumberOfCalls() << " phone calls" << endl;
 }
